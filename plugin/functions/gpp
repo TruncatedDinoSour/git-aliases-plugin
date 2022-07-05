@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ ! "$EDITOR" ]; then
+    echo 'Please set EDITOR environment variable' >&2
+    return 1
+fi
+
+git add -A
+git commit -sa || return 2
+git push -u origin main

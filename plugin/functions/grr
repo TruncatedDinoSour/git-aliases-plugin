@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git reset --hard
+git add -A
+git reset --hard
