@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+[ ! -x ./scripts/git.sh ] && echo 'No git script' && return
+./scripts/git.sh
