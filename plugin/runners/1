@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+alias g="git" \
+    ga="g add" \
+    gaa="ga -A" \
+    gp="git push" \
+    gpu='git push -u origin "$(git rev-parse --abbrev-ref HEAD)"' \
+    gr="g reset"
